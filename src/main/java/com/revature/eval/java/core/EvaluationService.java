@@ -21,7 +21,7 @@ public class EvaluationService {
 	static class SpeedConverter {
 
 		public static long toMilesPerHour(double kilometersPerHour) {
-			long retval = kilometersPerHour * 0.621371;
+			double retval = kilometersPerHour * 0.621371;
 			if (retval < 0) {
 				return -1;
 			} else {
