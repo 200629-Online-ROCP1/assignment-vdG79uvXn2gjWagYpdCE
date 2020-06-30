@@ -4,3 +4,7 @@ install: true
 
 script:
   - mvn clean test
+
+branches:
+  only:
+  - master
